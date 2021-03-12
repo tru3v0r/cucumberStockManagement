@@ -16,7 +16,7 @@ Feature: Stock Management To Check Duplicate Execution
       Then I've at least 9 products in stock
 
     @Everything @ScenarioOutline @FeatureChild
-    Scenario Outline: New products with tag inheritance
+    Scenario Outline: New products duplicate
       Given I need to add some <product>
       And I know how much I have
       When I add it to the stock
